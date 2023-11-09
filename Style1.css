@@ -114,8 +114,13 @@ nav ul li {
 
 #ici {
     color: rgb(52, 226, 43);
+    
 }
 
+#ici:hover {
+    color: #47feff;
+   
+}
 
 /*-----------------------interview------------------------------------------*/
 
@@ -174,6 +179,7 @@ nav ul li {
     left: 50%;
     top: 15%;
     transform: translateX(-500px);
+    
 
 }
 
@@ -255,6 +261,10 @@ footer {
     background-color: rgb(0, 0, 0);
     border: solid rgb(4, 166, 236);
     box-shadow: 0 0 50px 15px #48e0db;
+    animation: 1 ease;
+    transition: all ease;
+
+    
 }
 
 /*-----------------------Exposition------------------------------------------*/
