@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: "terminatorrealnfi";
-    src: url(font/terminatorrealnfi.ttf); 
+    font-family: "THE SOLSTICE";
+    src: url(font/THESOLSTICE.ttf); 
 
 }
 /*-----------------------navbar------------------------------------------*/
@@ -12,7 +12,7 @@ body {
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: "terminatorrealnfi";
+    font-family: "THE SOLSTICE";
       
 }
 
@@ -27,6 +27,7 @@ nav ul li {
     display: inline-block;
     padding: 10px;
     letter-spacing: 0.2rem;
+    
    
 }
 
@@ -36,14 +37,15 @@ nav ul li {
     justify-content: space-between;
     background-color: rgb(8, 7, 16);
     box-shadow: 0 0 50px 15px #e04848;
-    border: solid rgb(236, 4, 228);
+    border: solid #ff2528;
+    
     
 }
 
 .navbar a {
     color: rgb(226, 43, 43);
     text-decoration: none;
-    border: 3px solid rgb(83, 4, 105);
+    border: 3px solid rgb(250, 6, 6);
     border-radius: 5px;
     background-color: black;
 
@@ -59,8 +61,8 @@ nav ul li {
 }
 
 .navbar a:hover {
-    color: blueviolet;
-    background-color:rgb(43, 9, 74)
+    color: rgb(52, 226, 43);
+    background-color:rgba(43, 9, 74, 0)
 }
 
 /*-----------------------navbar------------------------------------------*/
@@ -74,8 +76,8 @@ nav ul li {
     border-radius: 10px;
     box-shadow: 5px 5 px 15 px rgba(0, 0, 0,0.3 );
     background-color: rgb(0, 0, 0);
-    border: solid rgb(236, 4, 228);
-    box-shadow: 0 0 50px 15px #e04848;
+    border: solid rgb(236, 159, 4);
+    box-shadow: 0 0 50px 15px #e09b48;
     
 
 }
@@ -83,7 +85,8 @@ nav ul li {
 
 .container h1 {
     margin-bottom: 10px;
-    color: purple;
+    color: rgb(52, 226, 43);
+    
 }
 
 .container p {
@@ -106,7 +109,13 @@ nav ul li {
 
 .question {
     color: aqua;
+    text-shadow: #48abe0 0 0 10px; 
 }
+
+#ici {
+    color: rgb(52, 226, 43);
+}
+
 
 /*-----------------------interview------------------------------------------*/
 
@@ -125,14 +134,127 @@ nav ul li {
 }
 
 .galerie img{
-    width: 200 px;
-    height: 200px;
-    float: left;
-    shape-outside: margin-box;
-    margin: 0 20px 5px 0;
+      width: 500px;
+      height: 600px;
+      object-fit: cover;
     
 }
+.galerie figcaption {
+    text-align: center
+      }
 
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .galerie figure {
+    margin: 10px;
+  }
+
+  .figcaption {
+    color: #44f5fe;
+  }
 
 /*-----------------------galerie------------------------------------------*/
 
+/*-----------------------Conclusion------------------------------------------*/
+
+.boiteconclu {
+    position: absolute;
+    width: 1000px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(252, 248, 248, 0.817);
+    border: solid rgb(4, 236, 120);
+    box-shadow: 0 0 50px 15px #48bce0;
+    display: inline-block;
+    text-align: center;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-500px);
+
+}
+
+.tete {
+    color :rgb(52, 226, 43);
+    font-weight: bold;
+}
+
+#ecriture {
+    text-align: justify;
+    color:black;
+    font-weight: bold;
+
+
+}
+
+.avis {
+    margin: 50px auto;
+    padding: 30px;
+    display: inline;
+}
+
+
+/*-----------------------Conclusion------------------------------------------*/
+/*-----------------------Accueil------------------------------------------*/
+
+.devweb {
+
+    max-width: 1000px;
+    margin: 350px auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid #61d6ff;
+    color: #47feff;
+    text-align: center;
+    background-color: #5e69796e;
+    box-shadow: 0 0 50px 15px #48bce0;
+    margin-top: 200px;
+    text-shadow: #48abe0 0 0 10px; 
+
+}
+.devweb p {
+    text-shadow: #48abe0 0 0 10px; 
+}
+
+footer {
+    background-color: #5e69796e;
+    color: #44f4fe;
+    text-align: center;
+    padding: 10px;
+    text-shadow: #48abe0 0 0 10px; 
+  }
+
+/*-----------------------Accueil------------------------------------------*/
+/*-----------------------Exposition------------------------------------------*/
+
+.boite1 {
+    color: rgb(52, 226, 43);
+    text-align: center;
+    text-shadow:rgb(52, 226, 43) 0 0 10px; 
+}
+
+.boite2 {
+    color: #44f4fe;
+    text-align: center;
+    text-shadow:rgb(43, 205, 226) 0 0 10px; 
+}
+
+.boite3 {
+    color: red;
+}
+
+.boitexpo {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5 px 15 px rgba(0, 0, 0,0.3 );
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(4, 166, 236);
+    box-shadow: 0 0 50px 15px #48e0db;
+}
+
+/*-----------------------Exposition------------------------------------------*/
