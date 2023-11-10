@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: "THE SOLSTICE";
-    src: url(font/THESOLSTICE.ttf); 
+    font-family: "HyperTurfu";
+    src: url(font/HyperTurfu.ttf); 
 
 }
 /*-----------------------navbar------------------------------------------*/
@@ -12,7 +12,8 @@ body {
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: "THE SOLSTICE";
+    font-family: "HyperTurfu";
+    font-size: 1.5em;
       
 }
 
@@ -78,6 +79,7 @@ nav ul li {
     background-color: rgb(0, 0, 0);
     border: solid rgb(236, 159, 4);
     box-shadow: 0 0 50px 15px #e09b48;
+    
 }
 
 
